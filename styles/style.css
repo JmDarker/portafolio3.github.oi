@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -50,7 +50,7 @@ header {
 
   .navbar .nav1 a:hover {
     color: red;
-    background-color: blue;
+    background-color: antiquewhite;
     transition: all 0.8s ease;
     border-radius: 100px;
     padding: 1px 5px;
@@ -113,11 +113,21 @@ header {
         display: block;
     }
 
+    header {
+      max-height: 625px;
+    }
+
     @media (max-width: 570px) {
       .dropdown_menu {
           left: 2rem;
           width: unset;
       }
+
+      
+      header {
+        max-height: 625px; 
+      }
+      
   }
 }
 
@@ -131,16 +141,16 @@ header {
 }
 
 .fto img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border: double red;
   border-radius: 500px;
 }
 
 .perfil h1 {
   color: antiquewhite;
-  padding-top: 20px;
-  font-size: 45px;
+  padding-top: 10px;
+  font-size: 35px;
   font-family: Zapf-Chancery;
 }
 
@@ -157,10 +167,37 @@ header {
   color: antiquewhite;
   text-decoration: none;
   border: solid 1px #fff;
-  margin: 40px 5px;
+  margin: 0 5px;
   font-size: 25px;
   width: 40px;
   height: 40px;
-  padding: 8px 10px;
   border-radius: 100px;
+  display: inline-block;
+  line-height: 40px;
+  transition: 1s;
+}
+
+.redes a:hover {
+  color: red;
+  border: solid 1px red;
+  transition: 1s;
+
+}
+
+.informacion {
+  margin: 40px;
+  padding: 10px;
+}
+
+.informacion h1 {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  font-family: Zapf-Chancery;
+}
+
+.informacion p {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }

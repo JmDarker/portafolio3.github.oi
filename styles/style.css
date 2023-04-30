@@ -110,4 +110,11 @@ header {
     .dropdown_menu {
         display: block;
     }
+
+    @media (max-width: 570px) {
+      .dropdown_menu {
+          left: 2rem;
+          width: unset;
+      }
   }
+}

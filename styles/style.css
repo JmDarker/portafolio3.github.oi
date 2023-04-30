@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -117,4 +119,39 @@ header {
           width: unset;
       }
   }
+}
+
+.perfil {
+  color: red;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 3px 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.perfil .left {
+  color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 100px;
+}
+
+.perfil .left h1 {
+  font-size: 2em;
+  padding-bottom: 40px;
+  font-family: Zapf-Chancery;
+}
+
+.perfil .right {
+  justify-content: center;
+}
+
+.perfil .right img {
+  width: 100px;
+  right: 100px;
+  border: double;
+  border-radius: 200px;
 }

@@ -151,7 +151,7 @@ header {
   color: antiquewhite;
   padding-top: 10px;
   font-size: 35px;
-  font-family: Zapf-Chancery;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .perfil h2 {
@@ -195,6 +195,7 @@ header {
 .texto {
   flex-basis: 40%;
   text-align: center;
+  margin: 0 20px;
 }
 
 .perfil1 {
@@ -205,7 +206,7 @@ header {
   color: red;
   text-align: center;
   font-size: 40px;
-  font-family: Zapf-Chancery;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   justify-items: center;
 }
 
@@ -220,28 +221,37 @@ header {
   color: red;
   text-align: center;
   font-size: 40px;
-  font-family: Zapf-Chancery;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .datos1 ul {
-  padding: 5px 0;
+  justify-items: center;
+  display: inline-block;
 }
 
 .datos1 li {
   list-style-type: none;
   text-align: left;
-  padding: 0  100px;
   margin: 15px 0;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .datos1 strong {
   display: inline-block;
-  width: 130px;
-font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
 .datos1 a {
   text-decoration: none;
+}
+
+footer {
+  display: block;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
 }

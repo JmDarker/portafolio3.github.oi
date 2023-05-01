@@ -185,19 +185,63 @@ header {
 }
 
 .informacion {
-  margin: 40px;
-  padding: 10px;
+    background-color: #1e2326;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.informacion h1 {
+.texto {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+.perfil1 {
+  margin: 0 30px;
+}
+
+.perfil1 h1 {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  font-family: Zapf-Chancery;
+  justify-items: center;
+}
+
+.perfil1 p {
+  color: antiquewhite;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.datos1 h1 {
   color: red;
   text-align: center;
   font-size: 40px;
   font-family: Zapf-Chancery;
 }
 
-.informacion p {
+.datos1 ul {
+  padding: 5px 0;
+}
+
+.datos1 li {
+  list-style-type: none;
   text-align: left;
-  font-size: 20px;
+  padding: 0  100px;
+  margin: 15px 0;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.datos1 strong {
+  display: inline-block;
+  width: 130px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.datos1 a {
+  text-decoration: none;
 }

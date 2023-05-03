@@ -334,11 +334,18 @@ max-height: 625px;
   text-align: center;
   margin: 0 10px;
   }
+  .perfil1 p {
+    font-size: 15px;
+    }
   .datos1 {
     flex-basis: 100%;
     text-align: center;
     margin: 0 10px;
     }
+
+    .datos1 li {
+      font-size: 15px;
+      }
 
     .informacion_contacto {
      font-size: 15px;

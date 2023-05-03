@@ -218,6 +218,7 @@ font-size: 15px;
 }
 
 .contacto h1 {
+  padding-top: 10px;
   border-bottom: red solid 1px;
   color: red;
   font-size: 30px;
@@ -234,6 +235,7 @@ font-size: 15px;
   width: 100%;
   color: antiquewhite;
   margin: 0%;
+  margin-bottom: 10px;
 }
 
 .contenedor_informacion form { 
@@ -270,6 +272,7 @@ padding-left: 25px;
   background-color: red;
   text-transform: uppercase;
   transition: 0.5s ease;
+  border-radius: 50px;
 }
 
 .contenedor_informacion form button:hover {
@@ -286,6 +289,8 @@ padding-left: 25px;
 }
 
 .informacion_contacto {
+  margin: 20px;
+  padding: 10px;
   text-align: center;
   background-color: black;
   color: antiquewhite;
@@ -298,6 +303,14 @@ padding-left: 25px;
 
 .informacion_contacto ul li i {
   padding: 4px 10px;
+ }
+
+ @media (min-width: 1080px){
+
+  .contenedor_contacto {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
  }
 
 @media (max-width: 1080px) {

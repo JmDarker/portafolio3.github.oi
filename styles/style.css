@@ -347,6 +347,10 @@ max-height: 625px;
       font-size: 15px;
       }
 
+      .contenedor_informacion form p { 
+        font-size: 15px;
+        }
+
     .informacion_contacto {
      font-size: 15px;
     }

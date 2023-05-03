@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 body {
-  background-color: red;
+background-color: red;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -188,14 +188,7 @@ font-family: 'Times New Roman', Times, serif;
 .datos1 a {
 text-decoration: none;
 }
-footer {
-display: block;
-background-color: black;
-color: aliceblue;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
-font-size: 15px;
-}
+
 .habilidades {
   background-color: black;
   color: antiquewhite;
@@ -228,7 +221,7 @@ font-size: 15px;
 
 .contenedor_contacto {
   width: 100%;
-
+padding: 1px;
 }
 
 .contenedor_informacion { 
@@ -290,7 +283,7 @@ padding-left: 25px;
 
 .informacion_contacto {
   margin: 20px;
-  padding: 10px;
+  padding: 40px;
   text-align: center;
   background-color: black;
   color: antiquewhite;
@@ -304,6 +297,16 @@ padding-left: 25px;
 .informacion_contacto ul li i {
   padding: 4px 10px;
  }
+
+ footer {
+  padding: 40px;
+  display: block;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  }
 
  @media (min-width: 1080px){
 

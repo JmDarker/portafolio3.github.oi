@@ -244,8 +244,8 @@ font-size: 15px;
 
 .contenedor_informacion form p { 
 margin: 20px 0;
-padding-right: 60px;
-padding-left: 60px;
+padding-right: 40px;
+padding-left: 25px;
 }
 
 .contenedor_informacion form .bloque { 

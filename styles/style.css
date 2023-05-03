@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 body {
+  background-color: red;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -148,9 +149,10 @@ margin: 0 20px;
 margin: 0 30px;
 }
 .perfil1 h1 {
+  border-bottom: red solid 1px;
 color: red;
 text-align: center;
-font-size: 40px;
+font-size: 30px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .perfil1 p {
@@ -162,9 +164,10 @@ font-family: 'Times New Roman', Times, serif;
 .datos1 h1 {
 color: red;
 text-align: center;
-font-size: 40px;
+font-size: 30px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 margin-bottom: 5px;
+border-bottom: red solid 1px;
 }
 .datos1 ul {
 justify-items: center;
@@ -193,6 +196,103 @@ text-align: center;
 font-family: 'Times New Roman', Times, serif;
 font-size: 15px;
 }
+.habilidades {
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+  margin: 0 10rem;
+}
+
+.habilidades h1 {
+  border: solid 1px red;
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+.contacto {
+  padding: 0 50px;
+  background-color: #1e2326;
+}
+
+.contacto h1 {
+  border-bottom: red solid 1px;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor_contacto {
+  width: 100%;
+
+}
+
+.contenedor_informacion { 
+  width: 100%;
+  color: antiquewhite;
+  padding: 0 20px;
+}
+
+.contenedor_informacion form { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contenedor_informacion form p { 
+margin: 20px 0;
+padding: 0 20px;
+}
+
+.contenedor_informacion form .bloque { 
+  grid-column: 1 / 3;
+  }
+
+.contenedor_informacion form button,
+.contenedor_informacion form input,
+.contenedor_informacion form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+  background: none;
+  color: antiquewhite;
+}
+
+.contenedor_informacion form button {
+  border: none;
+  background-color: red;
+  text-transform: uppercase;
+  margin: 0 10px;
+  transition: 0.5s ease;
+}
+
+.contenedor_informacion form button:hover {
+  background-color: #740e0e;
+  color: black;
+  transition: 0.5s ease;
+  border-radius: 50px;
+  padding: 5px;
+
+}
+
+.contenedor_informacion form  {
+  width: 100%;
+}
+
+.informacion_contacto {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.informacion_contacto ul {
+ list-style-type: none;
+ margin: 0%;
+}
+
 @media (max-width: 1080px) {
 .navbar .nav1 {
 display: none;
